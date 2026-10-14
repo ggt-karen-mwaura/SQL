@@ -1,6 +1,6 @@
 # Type of Triangle
 
-**Link:** [Hackerrank - Type of Triangle](https://www.hackerrank.com/challenges/what-type-of-triangle/copy-from/485207994)
+**Link:** [Hackerrank - Type of Triangle](https://www.hackerrank.com/challenges/what-type-of-triangle/problem)
 
 ## Intuition
 This challenge checks the relationship between the three triangle sides. First, we determine whether the triangle is invalid by testing whether any side is too long to form a triangle. If it is valid, we then classify it as equilateral, isosceles, or scalene using the side comparisons.
