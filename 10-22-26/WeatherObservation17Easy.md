@@ -1,0 +1,19 @@
+# Weather Observation Station 17
+
+**Problem:** [Weather Observation Station 17](https://www.hackerrank.com/challenges/weather-observation-station-17/problem)
+
+## Intuition
+
+Find the smallest latitude above the lower bound, then select the longitude at that latitude and round it to four decimal places.
+
+## Solution
+
+```sql
+SELECT ROUND(LONG_W, 4)
+FROM station
+WHERE LAT_N = (
+    SELECT MIN(LAT_N)
+    FROM station
+    WHERE LAT_N > 38.7780
+);
+```
